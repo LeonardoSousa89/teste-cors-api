@@ -25,7 +25,7 @@ module.exports = {
       database: 'd69kc8k5gtjg1',
       user:     'yjgnewbtubiiyx',
       password: 'fc23b981dbe550d35ee0c56a9c5d978a664ed07f6a5e1ab32fcc959b705cdb29',
-      ssl:{rejectUnauthorized:true}
+      ssl:{ rejectUnauthorized:false }
     },
     pool: {
       min: 5,
