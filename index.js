@@ -11,7 +11,7 @@ app.use(log('dev'))
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(policy({
-    origin:'https://teste-cors-app.herokuapp.com/',
+    origin:'https://teste-cors-app.herokuapp.com',
     methods:['GET'],
     credentials:true
 }))
