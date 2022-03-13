@@ -1,4 +1,4 @@
-const _Port = 3000
+const _Port = process.env.PORT || 3000
 
 const server  = require('./server/index')
 const log     = require('morgan')
